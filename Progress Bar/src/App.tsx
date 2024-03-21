@@ -16,14 +16,13 @@ const App: React.FC = () => {
     setProgress((prevProgress) => (prevProgress <= 0 ? 0 : prevProgress - 10));
   };
 
-  
   const resetProgress = () => {
     setProgress(0);
   };
 
-
   return (
     <>
+      <h1>Progress Bar</h1>
       <div
         style={{
           display: "flex",
